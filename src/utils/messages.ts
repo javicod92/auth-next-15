@@ -5,8 +5,11 @@ export const messages = {
     passwordsNotMatch: "Las claves ingresadas no coinciden",
     emailExist: "El email ingresado ya existe",
     default: "Ocurrio un error",
+    userNotFound: "Usuario no encontrado",
+    incorrectPassword: "Clave incorrecta",
   },
   success: {
     userCreated: "Usuario creado con éxito",
+    userLogged: "Que bueno verte de nuevo",
   },
 };

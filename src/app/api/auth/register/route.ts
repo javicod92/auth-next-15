@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { connectMongoDB } from "@/lib/mongodb";
 import { messages } from "@/utils/messages";
 import { isValidEmail } from "@/utils/isValidEmail";
-import User, { IUserSchema } from "@/models/User";
+import User, { IUser, IUserSchema } from "@/models/User";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
@@ -64,13 +64,8 @@ export async function POST(request: NextRequest) {
     });
 
     const response = NextResponse.json(
-      {
-        newUser: rest,
-        message: messages.success.userCreated,
-      },
-      {
-        status: 200,
-      }
+      { newUser: rest, message: messages.success.userCreated },
+      { status: 200 }
     );
 
     response.cookies.set("auth_cookie", token, {
