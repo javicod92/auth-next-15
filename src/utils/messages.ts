@@ -11,5 +11,6 @@ export const messages = {
   success: {
     userCreated: "Usuario creado con éxito",
     userLogged: "Que bueno verte de nuevo",
+    emailSent: "Correo enviado correctamente",
   },
 };
