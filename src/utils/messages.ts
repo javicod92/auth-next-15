@@ -7,6 +7,7 @@ export const messages = {
     default: "Ocurrio un error",
     userNotFound: "Usuario no encontrado",
     incorrectPassword: "Clave incorrecta",
+    notAuthorized: "No autorizado",
   },
   success: {
     userCreated: "Usuario creado con éxito",
