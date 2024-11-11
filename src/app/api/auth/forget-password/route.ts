@@ -38,8 +38,8 @@ export async function POST(request: NextRequest) {
     //@ts-ignore
     resend.emails.send({
       from: "onboarding@resend.dev",
-      // to: email,
-      to: "pproveemail@gmail.com",
+      to: email,
+      // to: "pproveemail@gmail.com",
       subject: "Cambio de contraseña",
       html: `<a href=${forgetUrl}>Cambiar Contraseña</a>`,
     });

@@ -8,10 +8,12 @@ export const messages = {
     userNotFound: "Usuario no encontrado",
     incorrectPassword: "Clave incorrecta",
     notAuthorized: "No autorizado",
+    tokenNotValid: "Clave Token no valida",
   },
   success: {
     userCreated: "Usuario creado con éxito",
     userLogged: "Que bueno verte de nuevo",
     emailSent: "Correo enviado correctamente",
+    passwordChanged: "Contraseña cambiada con éxito",
   },
 };
