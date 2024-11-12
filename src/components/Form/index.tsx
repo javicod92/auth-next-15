@@ -1,8 +1,8 @@
 "use client";
 
+import { Footer, Input, SubmitButton } from "./components";
 import React, { createContext, useState } from "react";
 import styles from "./styles.module.scss";
-import { Input } from "./components/Input";
 
 type FormValues = Record<string, string>;
 
@@ -44,3 +44,5 @@ export function Form({ title, children, onSubmit, description }: FormProps) {
 }
 
 Form.Input = Input;
+Form.Footer = Footer;
+Form.SubmitButton = SubmitButton;
