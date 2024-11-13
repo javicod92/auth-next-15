@@ -4,6 +4,7 @@ import { messages } from "@/utils/messages";
 import User from "@/models/User";
 import { Resend } from "resend";
 import jwt from "jsonwebtoken";
+import { EmailTemplate } from "@/components/EmailTemplate";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -41,7 +42,7 @@ export async function POST(request: NextRequest) {
       // to: [email],
       to: "pproveemail@gmail.com",
       subject: "Cambio de contraseña",
-      html: `<a href=${forgetUrl}>Cambiar Contraseña</a>`,
+      react: EmailTemplate({ buttonUrl: forgetUrl }),
     });
 
     return NextResponse.json(
