@@ -13,5 +13,22 @@ export async function middleware(request: NextRequest) {
         token: token.value,
       },
     });
-  } catch (error) {}
+
+    const data = await res.json();
+
+    //@ts-ignore
+    if (!data.isAuthorized) {
+      return NextResponse.redirect(new URL("/", request.url));
+    }
+
+    return NextResponse.next();
+  } catch (error) {
+    return NextResponse.redirect(new URL("/", request.url));
+  }
 }
+
+// This code apply only to "/home" page
+// The middleware is activated when the user goes to “home”
+export const config = {
+  matcher: "/home",
+};
