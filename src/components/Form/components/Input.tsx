@@ -5,7 +5,7 @@ import { FormContext } from "..";
 import styles from "./styles.module.scss";
 
 interface InputProps {
-  type?: "text" | "password";
+  type?: "text" | "password" | "email";
   name: string;
   label: string;
   placeholder?: string;
@@ -30,12 +30,15 @@ export function Input({ label, name, placeholder, type }: InputProps) {
       </label>
       <div className="relative ">
         <input
-          type={showPassword ? "text" : "password"}
+          type={
+            type === "password" ? (showPassword ? "text" : "password") : type
+          }
           id={name}
           name={name}
           value={formValues[name] || ""}
           onChange={handleChange}
           placeholder={placeholder}
+          required
         />
         {type === "password" && (
           <div

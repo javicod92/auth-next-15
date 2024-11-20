@@ -28,6 +28,7 @@ export default function LoginPage() {
           placeholder="Ingresa tu correo..."
           label="Correo electrónico"
           name="email"
+          type="email"
         />
         <Form.Input
           placeholder="Ingresa tu contraseña..."
