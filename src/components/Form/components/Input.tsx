@@ -28,7 +28,7 @@ export function Input({ label, name, placeholder, type }: InputProps) {
       <label className={styles.label} htmlFor={name}>
         {label}
       </label>
-      <div className="flex gap-1">
+      <div className="relative ">
         <input
           type={showPassword ? "text" : "password"}
           id={name}
@@ -39,7 +39,7 @@ export function Input({ label, name, placeholder, type }: InputProps) {
         />
         {type === "password" && (
           <div
-            className="flex cursor-pointer border-[0.5px] border-[#878787] rounded-lg p-1 items-center justify-center"
+            className="absolute cursor-pointer top-[50%] right-0 p-2 translate-y-[-50%]"
             onClick={() => setShowPassword((prevState) => !prevState)}
           >
             <svg
@@ -48,7 +48,7 @@ export function Input({ label, name, placeholder, type }: InputProps) {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-6"
+              className="size-5"
             >
               <path
                 strokeLinecap="round"
