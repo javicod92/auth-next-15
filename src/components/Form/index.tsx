@@ -32,7 +32,7 @@ export function Form({ title, children, onSubmit, description }: FormProps) {
 
   return (
     <FormContext.Provider value={{ formValues, setFormValues }}>
-      <form action="" className={styles.form} onSubmit={handleSubmit}>
+      <form action="" className={`${styles.form} card`} onSubmit={handleSubmit}>
         <div className={styles.descriptionContainer}>
           <h2>{title}</h2>
           {description && <p>{description}</p>}
