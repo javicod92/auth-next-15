@@ -16,18 +16,18 @@ This project is a modern platform for **creating and validating user credentials
 - **Zod**: Used for schema and data validation to guarantee integrity
 
 ## 🚀 Main Functions
-- **Credential creation**:
+**Credential creation**:
 - User registration with data validation via Zod
 - Secure passwords with Bcrypt encryption
 
-- **Credential validation**:
+**Credential validation**:
 - Login with JWT-based authentication
 - Secure session management with cookies and middlewares
 - Integration with MongoDB to store and manage users
 
-- **Advanced password validation**:
+**Advanced password validation**:
 - Minimum length of 8 characters
 - Requires at least one uppercase letter, one lowercase letter, one number and one special character
 
-- **Modular design**:
+**Modular design**:
 - Clear folder structure for easy maintenance and collaboration
