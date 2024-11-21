@@ -31,3 +31,25 @@ This project is a modern platform for **creating and validating user credentials
 
 **Modular design**:
 - Clear folder structure for easy maintenance and collaboration
+
+## 📸 Project Screenshots
+**Login Page**
+![Captura de pantalla 2024-11-21 202722](https://github.com/user-attachments/assets/522c62f5-8277-4e81-84b7-a3554c03c566)
+
+**Register Page**
+![Captura de pantalla 2024-11-21 203115](https://github.com/user-attachments/assets/32fadf1c-c463-4ddc-b549-c90c555562b3)
+
+**Recover Password Page**
+![Captura de pantalla 2024-11-21 203138](https://github.com/user-attachments/assets/34c8dc50-588a-40c5-b4bf-6d23b60e95e7)
+
+**User in Database (Local)**
+![Captura de pantalla 2024-11-21 203309](https://github.com/user-attachments/assets/cf517e6a-e25e-4500-abc7-7bf5447f9d4a)
+
+**Password recovery email**
+![Captura de pantalla 2024-11-21 204438](https://github.com/user-attachments/assets/05a072f4-d607-4fe7-ad47-1cf1b9855adb)
+
+**Change Password Page**
+![Captura de pantalla 2024-11-21 204541](https://github.com/user-attachments/assets/70e0443a-5efd-4344-ab98-67fd5812cb15)
+
+
+
