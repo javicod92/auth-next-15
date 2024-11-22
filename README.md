@@ -64,4 +64,4 @@ This project is a modern platform for **creating and validating user credentials
 
 ## 🙌 acknowledgments
 This project was made possible thanks to the resources and learning shared at:
--[Mauro](https://www.youtube.com/watch?v=_Xa2meKyXas&t=1132s)
+-[Mauro](https://youtu.be/_Xa2meKyXas)
