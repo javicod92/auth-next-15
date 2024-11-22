@@ -51,5 +51,14 @@ This project is a modern platform for **creating and validating user credentials
 **Change Password Page**
 ![Captura de pantalla 2024-11-21 204541](https://github.com/user-attachments/assets/70e0443a-5efd-4344-ab98-67fd5812cb15)
 
+## 🥁 What makes this project interesting?
+**Advanced security**: Use of encryption and strong authentication with JWT
+**Full validations**: Ensures correct data using Zod, which avoids common errors
+**Modern integration**: Mail notifications with Resend for a better user experience
+**Scalable code**: Modular structure for easy maintenance and new features
 
+## 💻 Installation and Configuration
+1) **Clone this repository**: https://github.com/javicod92/auth-next-15.git
+2) **Installs the dependencies**: npm install
+3) **Run the development server**: npm run dev
 
