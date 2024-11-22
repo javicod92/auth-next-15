@@ -62,3 +62,6 @@ This project is a modern platform for **creating and validating user credentials
 2) **Installs the dependencies**: npm install
 3) **Run the development server**: npm run dev
 
+## 🙌 acknowledgments
+This project was made possible thanks to the resources and learning shared at:
+-[Mauro](https://www.youtube.com/watch?v=_Xa2meKyXas&t=1132s)
