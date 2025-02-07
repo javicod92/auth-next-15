@@ -61,7 +61,3 @@ This project is a modern platform for **creating and validating user credentials
 1) **Clone this repository**: https://github.com/javicod92/auth-next-15.git
 2) **Installs the dependencies**: npm install
 3) **Run the development server**: npm run dev
-
-## 🙌 acknowledgments
-This project was made possible thanks to the resources and learning shared at:
--[Mauro](https://youtu.be/_Xa2meKyXas)
